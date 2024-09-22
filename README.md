@@ -39,7 +39,7 @@ This project implements a RESTful JWKS server that provides public keys with uni
 Run the test suite using pytest:
  Before running your tests, make sure your terminal is in the jwks_server directory
 ```bash
-pip install pytest
+pip install --upgrade pytest pytest-cov
 export PYTHONPATH=$(pwd)
 pytest --cov=app tests/
 ```
